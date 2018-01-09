@@ -18,13 +18,11 @@ var contacts = [
         email: 'zbigniew.koziol@example.com',
     }
 ];
-  
 var contactForm = {
     firstName: '',
     lastName: '',
     email: ''
 };
-
 var App = React.createClass({
     render: function() {
         return (
