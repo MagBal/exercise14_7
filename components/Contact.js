@@ -2,7 +2,6 @@ var Contact = React.createClass({
     propTypes: {
         item: React.PropTypes.object.isRequired
     },
-
     render : function() {
         return (
             <div className={'contactItem'}>
